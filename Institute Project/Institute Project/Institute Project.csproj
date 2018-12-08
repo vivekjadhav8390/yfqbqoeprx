@@ -30,7 +30,7 @@
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
-    <OutputPath>bin\</OutputPath>
+    <OutputPath>bin\Debug\</OutputPath>
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
@@ -228,6 +228,18 @@
     <Content Include="Content\assets\js\ready.min.js" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Login\css\demo.css" />
+    <Content Include="Content\Login\css\font-awesome.css" />
+    <Content Include="Content\Login\css\style.css" />
+    <Content Include="Content\Login\font\fontawesome-webfont.svg" />
+    <Content Include="Content\Login\images\bg.jpg" />
+    <Content Include="Content\Login\images\bg2.jpg" />
+    <Content Include="Content\Login\images\bg3.jpg" />
+    <Content Include="Content\Login\images\blurred.jpg" />
+    <Content Include="Content\Login\images\noise.png" />
+    <Content Include="Content\Login\images\wood_pattern.jpg" />
+    <Content Include="Content\Login\js\jquery.placeholder.min.js" />
+    <Content Include="Content\Login\js\modernizr.custom.63321.js" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -268,6 +280,11 @@
     <Content Include="Content\assets\sass\ready\_responsive.scss" />
     <Content Include="Content\assets\sass\ready\_typography.scss" />
     <Content Include="Content\assets\sass\ready\_variables.scss" />
+    <Content Include="Content\Login\css\.DS_Store" />
+    <Content Include="Content\Login\font\fontawesome-webfont.eot" />
+    <Content Include="Content\Login\font\fontawesome-webfont.ttf" />
+    <Content Include="Content\Login\font\fontawesome-webfont.woff" />
+    <Content Include="Content\Login\images\.DS_Store" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -319,6 +336,10 @@
     <Content Include="Views\Shared\_Student_Layout.cshtml" />
     <Content Include="Views\Shared\_Manager_Layout.cshtml" />
     <Content Include="Views\Manager\Index.cshtml" />
+    <Content Include="Views\Student\Login.cshtml" />
+    <Content Include="Views\Manager\Login.cshtml" />
+    <Content Include="Views\Admin\Login.cshtml" />
+    <Content Include="Views\Shared\_LoginLayout.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Code\" />
