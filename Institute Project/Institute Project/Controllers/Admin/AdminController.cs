@@ -13,5 +13,10 @@ namespace School_Project.Controllers.Admin
         {
             return View();
         }
+        [HttpGet]
+        public ActionResult Login()
+        {
+            return View("Login");
+        }
     }
 }

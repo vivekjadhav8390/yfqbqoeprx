@@ -13,5 +13,9 @@ namespace School_Project.Controllers.Manager
         {
             return View();
         }
+        public ActionResult Login()
+        {
+            return View();
+        }
     }
 }
